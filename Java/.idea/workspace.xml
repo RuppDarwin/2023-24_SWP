@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af35f924-dd6c-4c8c-98a8-7c7a62581dc9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BSP_03_Phone/src/at/swp/phone/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BSP_03_Phone/src/at/swp/phone/parts/Camera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BSP_03_Phone/src/at/swp/phone/parts/PhoneFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BSP_03_Phone/src/at/swp/phone/parts/SDKarte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BSP_03_Phone/src/at/swp/phone/parts/Sim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bsp_01_Bankomat/Bsp_01_Bankomat.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bsp_02_Stringhelper/Bsp_02_Stringhelper.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2WZVF6ixvChnG1eCJioeuiwg8xq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Schule/05_Jahr/05_SWP/2023-24_SWP/Slick2DTemplate",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af35f924-dd6c-4c8c-98a8-7c7a62581dc9" name="Changes" comment="" />
+      <created>1696939982431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696939982431</updated>
+      <workItem from="1696939983427" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
