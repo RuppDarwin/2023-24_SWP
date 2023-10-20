@@ -7,10 +7,6 @@ public class MainGame extends BasicGame {
     private int rectX,rectY,circleX,circleY;
     private boolean circleUp = false;
     private boolean circleDown = true;
-    private boolean rectRight = true;
-    private boolean rectLeft = false;
-    private boolean rectUp = false;
-    private boolean rectDown = false;
 
     public MainGame(String title){
         super(title);
@@ -26,37 +22,24 @@ public class MainGame extends BasicGame {
 
     @Override
     public void update(GameContainer gameContainer, int i) throws SlickException {
-        if(circleUp) {
-            this.circleY--;
-        }else if(circleDown){
-            this.circleY++;
+
+        circleY++;
+
+        if(this.circleY == 600){
+            this.circleY = -50;
         }
 
-        if(rectRight) {
+        if(this.rectX >= 75 && this.rectY == 75){
             this.rectX++;
-        }else if(rectLeft){
-            this.rectX--;
-        }else if(rectUp){
-            this.rectY--;
-        }else if(rectDown){
+        }
+        if(this.rectX == 725 && this.rectY >= 75){
             this.rectY++;
         }
-
-        if(rectX == 725){
-            this.rectRight = false;
-            this.rectDown = true;
+        if(this.rectX <= 725 && this.rectY == 525){
+            this.rectX--;
         }
-        if(rectY == 525){
-            this.rectDown = false;
-            this.rectLeft = true;
-        }
-        if(rectX == 75){
-            this.rectLeft = false;
-            this.rectUp = true;
-        }
-        if(rectY == 75){
-            this.rectUp = false;
-            this.rectRight = true;
+        if(this.rectX == 75 && this.rectY <= 525){
+            this.rectY--;
         }
     }
 
