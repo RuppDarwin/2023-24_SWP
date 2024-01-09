@@ -15,7 +15,7 @@ public class CircleActor {
         this.y++;
 
         if(this.y == 600){
-            this.x = -50;
+            this.y = -50;
         };
 
     }
