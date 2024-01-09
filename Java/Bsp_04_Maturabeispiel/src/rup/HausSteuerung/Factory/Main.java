@@ -1,2 +1,4 @@
-package rup.HausSteuerung.Factory;public class Main {
+package rup.HausSteuerung.Factory;
+
+public class Main {
 }

@@ -1,4 +1,4 @@
-package at.rup.oneton;
+package at.rup.addobject;
 
 import org.newdawn.slick.*;
 
@@ -30,7 +30,7 @@ public class MainGame extends BasicGame {
 
     public static void main(String[] argv) {
         try {
-            AppGameContainer container = new AppGameContainer(new at.rup.oneton.MainGame("Add Objects"));
+            AppGameContainer container = new AppGameContainer(new MainGame("Add Objects"));
             container.setDisplayMode(800,600,false);
             container.start();
         } catch (SlickException e) {

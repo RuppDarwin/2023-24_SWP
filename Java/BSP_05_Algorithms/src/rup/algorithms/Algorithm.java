@@ -1,3 +1,5 @@
+package rup.algorithms;
+
 public interface Algorithm {
-    void algorithm();
+    void algorithm(int[] unsortedList);
 }

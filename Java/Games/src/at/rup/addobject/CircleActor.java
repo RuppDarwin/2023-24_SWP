@@ -1,4 +1,4 @@
-package at.rup.oneton;
+package at.rup.addobject;
 
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
